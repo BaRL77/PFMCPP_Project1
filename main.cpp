@@ -2,7 +2,7 @@
 /*
  PFM::C++ For Musicians Task
  Project 1 - Part 1 / 1
- Video: Chapter 2 Part 1
+ Video: Chapter 2 Part 1 
  
 Create a branch named Part1
 
@@ -52,97 +52,106 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: slider
+//  action 1: the slider goes up and down
+slider.move();
+//  action 2: the slider reutrn to previous position
+slider.undo();
+//  action 3: the slider return to default position
+slider.default();
+  
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: button
+//  action 1: the button extends
+button.extend();
+//  action 2: the button is glow
+button.glow();
+//  action 3: the button is changing his text
+button.text();
 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: speaker
+//  action 1: the speaker make sounds
+speaker.playsounds();
+//  action 2: the speaker light change color
+speaker.color();
+//  action 3: the speaker shut down
+speaker.off();
 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun: alarmClock
+//  action 1: the clock is ringing
+alarmClock.ring();
+//  action 2: the clock is repeat every 5 min
+alarmClock.repeat();
+//  action 3: the clock is stop ringing
+alarmClock.stop();
 
-//  action 2:
-
-//  action 3:
-
-//  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  5) 
+//  Noun: fan
+//  action 1: the fan is spinning 
+fan.spin();
+//  action 2: the fan blows cold air
+fan.cold();
+//  action 3: the fan blows hot air
+fan.hot();
+  
+//  6) 
+//  Noun: computer
+//  action 1: computer get into sleep mode
+computer.sleep();
+//  action 2: computer backup your data
+computer.backup();
+//  action 3: computer fans starts working
+computer.fans();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: cleaningRobot
+//  action 1: start to clean the house
+cleaningRobot.start();
+//  action 2: return to the charging station
+cleaningRobot.charge();
+//  action 3: beep when the tank is full
+cleaningRobot.beep();
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun: smokeDetector
+//  action 1: beep when sense smoke
+smokeDetector.beep();
+//  action 2: call the firemans
+smokeDetector.call();
+//  action 3: drop water to put of the fire
+smokeDetector.water();
 
-//  action 2:
-
-//  action 3:
-
-//  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  9) 
+//  Noun: traficLight
+//  action 1: the Light is red
+traficLight.Red();
+//  action 2: the Light is yellow
+traficLight.Yellow();
+//  action 3: the Light is green
+traficLight.Green();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
-
+//  Noun: dog
+//  action 1: dog is barking
+dog.bark();
+//  action 2: dog is sleeping
+dog.sleep();
+//  action 3: dog is running
+dog.run();
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +159,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
