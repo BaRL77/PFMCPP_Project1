@@ -54,11 +54,11 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 //  1)
 //  Noun: slider
 //  action 1: the slider goes up and down
-slider.move();
+slider.moveUpAndDown();
 //  action 2: the slider reutrn to previous position
-slider.undo();
+slider.undoPreviousPosition();
 //  action 3: the slider return to default position
-slider.default();
+slider.defaultPosition();
   
 //  2)
 //  Noun: button
@@ -67,16 +67,16 @@ button.extend();
 //  action 2: the button is glow
 button.glow();
 //  action 3: the button is changing his text
-button.text();
+button.changingText();
 
 //  3)
 //  Noun: speaker
 //  action 1: the speaker make sounds
-speaker.playsounds();
+speaker.makeSounds();
 //  action 2: the speaker light change color
-speaker.color();
+speaker.changeLightColor();
 //  action 3: the speaker shut down
-speaker.off();
+speaker.shutDown();
 
 //  4)
 //  Noun: alarmClock
@@ -92,36 +92,36 @@ alarmClock.stop();
 //  action 1: the fan is spinning 
 fan.spin();
 //  action 2: the fan blows cold air
-fan.cold();
+fan.blowColdAir();
 //  action 3: the fan blows hot air
-fan.hot();
+fan.blowHotAir();
   
 //  6) 
 //  Noun: computer
 //  action 1: computer get into sleep mode
-computer.sleep();
+computer.sleepMode();
 //  action 2: computer backup your data
-computer.backup();
+computer.backupData();
 //  action 3: computer fans starts working
-computer.fans();
+computer.fansWorking();
 
 //  7)
 //  Noun: cleaningRobot
 //  action 1: start to clean the house
-cleaningRobot.start();
+cleaningRobot.startCleanHouse();
 //  action 2: return to the charging station
-cleaningRobot.charge();
+cleaningRobot.returnChargeStation();
 //  action 3: beep when the tank is full
-cleaningRobot.beep();
+cleaningRobot.tankFullBeep();
 
 //  8)
 //  Noun: smokeDetector
 //  action 1: beep when sense smoke
-smokeDetector.beep();
+smokeDetector.senseSmokeBeep();
 //  action 2: call the firemans
-smokeDetector.call();
-//  action 3: drop water to put of the fire
-smokeDetector.water();
+smokeDetector.callFiremans();
+//  action 3: drops water to put of the fire
+smokeDetector.dropWater();
 
 //  9) 
 //  Noun: traficLight
